@@ -3,8 +3,7 @@ import React from 'react'
 const page = ({params}) => {
   return (
     <div>
-        {params.id} page
-        
+        <h1>{params.detailId} related details of {params.menId}</h1>
     </div>
   )
 }

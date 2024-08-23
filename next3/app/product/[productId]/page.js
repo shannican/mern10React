@@ -3,8 +3,7 @@ import React from 'react'
 const page = ({params}) => {
   return (
     <div>
-        {params.id} page
-        
+        <h1>{params.productId}'s page</h1>
     </div>
   )
 }

@@ -1,10 +1,9 @@
 import React from 'react'
 
-const page = ({params}) => {
+const page = () => {
   return (
     <div>
-        {params.id} page
-        
+        <h1>Women's collection</h1>
     </div>
   )
 }

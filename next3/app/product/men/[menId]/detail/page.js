@@ -2,10 +2,7 @@ import React from 'react'
 
 const page = ({params}) => {
   return (
-    <div>
-        {params.id} page
-        
-    </div>
+    <h1>Men's {params.menId} Detail</h1>
   )
 }
 
