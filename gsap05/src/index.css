@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+#page1{
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue;
+}
+#page2{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(85, 166, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page3{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(17, 193, 252);
+}
+#page4{
+  height: 100vh;
+  width: 100%;
+  background-color: royalblue;
+}
+#box{
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border-radius: 5px;
+}
